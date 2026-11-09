@@ -7,7 +7,7 @@ This topic describes how and when to scale BOSH jobs in CAPI, and includes detai
 
 To inform some scaling decisions, check current CPU values by running `bosh instances --ps --vitals`.
 The **CPU User** value corresponds with the `system.cpu.user` metric and is scaled by the number of CPUs.
-For example, on a 4-core `api` VM, a `cloud_controller_ng` process that is using 100% of a core is listed as using 25% in the `system.cpu.user` metric.</p>
+For example, on a 4-core `api` VM, a `cloud_controller_ng` process that is using 100% of a core is listed as using 25% in the `system.cpu.user` metric.
 
 ## <a id='cloud_controller_ng'></a> cloud_controller_ng
 
